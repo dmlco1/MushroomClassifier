@@ -4,7 +4,7 @@ import weka.core.Instances;
 import weka.core.converters.ConverterUtils.DataSource;
 
 public class NewInstances {
-    Instances database;
+    Instances database = null;
 
     public NewInstances(Instances database) {
         database.clear();
